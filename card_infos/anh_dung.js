@@ -14,7 +14,7 @@ export const anh_dung = `
 <!-- Content for right column goes here -->
 <div class="section">
     <h2>About Me</h2>
-    <p>‣ Xà Lơ</p> ‣ Xà Lơ</p> ‣ Xà Lơ</p>
+    <p>Xà Lơ</p>Xà Lơ</p>Xà Lơ</p>
 </div>
 <div class="section">
     <h2>My Hobbies</h2>
