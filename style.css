@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/394664024_767699288495177_5596661602949269172_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CLmMbY_eDBwAX-heYru&_nc_ht=scontent.fsgn5-9.fna&oh=00_AfAEk5zCz-OzuAJEjJh3_OZIeCLMU9pKMac5Qn8zG_w0Yg&oe=6556B07A");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+#logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+#avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  aspect-ratio: 1 1;
+}
+
+.left-column {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding-right: 30px;
+}
+
+.right-column {
+  width: 470px;
+  margin-left: 30px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  width: 900px;
+  height: fit-content;
+  padding: 50px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: white;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  border: 2px dashed rgb(189, 195, 199);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.contacts a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.contacts img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.2; */
+  border-radius: 999px;
+  margin: 1em;
+  padding: 1em;
+  size: 20px 20px;
+  border-color: transparent;
+}
