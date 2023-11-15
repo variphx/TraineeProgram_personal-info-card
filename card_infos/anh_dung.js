@@ -2,7 +2,7 @@ export const anh_dung = `
 <div class="left-column">
 <!-- Content for left column goes here -->
 <img id="logo" src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" />
-<img id="avatar" src="/public/anh_dung.png" alt="" style="background-color: rgba(0, 0, 0, 0.2);"/>
+<img id="avatar" src="/anh_dung.png" alt="" style="background-color: rgba(0, 0, 0, 0.2);"/>
 <div class="highlights">
     <h1>Huỳnh Anh Dũng</h1>
     <p>KHMT2022.1</p>
