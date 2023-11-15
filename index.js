@@ -7,6 +7,7 @@ import { anh_dung } from "./card_infos/anh_dung.js";
 import { hoang_minh } from "./card_infos/hoang_minh.js";
 import { thanh_tam } from "./card_infos/thanh_tam.js";
 import { dang_khoa } from "./card_infos/dang_khoa.js";
+import { nhat_quang } from "./card_infos/nhat_quang.js";
 
 const infos = [
     minh_tien,
@@ -17,7 +18,8 @@ const infos = [
     anh_dung,
     hoang_minh,
     thanh_tam,
-    dang_khoa
+    dang_khoa,
+    nhat_quang
 ];
 
 let i = 0;
